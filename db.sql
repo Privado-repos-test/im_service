@@ -5,7 +5,7 @@ use gobelieve;
 CREATE TABLE `group` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `appid` bigint(20) DEFAULT NULL,
-  `master` bigint(20) DEFAULT NULL,
+  `master` bigint(20) DEFAULT NULL, 
   `super` tinyint(4) NOT NULL DEFAULT '0',
   `name` varchar(255) DEFAULT NULL,
   `notice` varchar(255) DEFAULT NULL COMMENT '公告',
